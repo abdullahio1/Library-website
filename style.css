@@ -5,3 +5,49 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+nav{
+    height: 80px;
+    display: flex;
+}
+.Nav__container{
+    width: 100%;
+    display: flex;
+    padding: 0 24px;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.Logo{
+    width: 160px;
+}
+ul{
+    display: flex;
+}
+li{
+   list-style-type: none;
+}
+.Nav__link{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+      padding: 8px;
+}
+.Nav__link:hover{
+    text-decoration: underline;
+}
+.Nav__link--primary{
+    border: 2px solid purple;
+    border-radius: 4px;
+}
+.Nav__link--primary:hover{
+    text-decoration: none;
+}
+#landing{
+background-color: rgba(115, 66, 214, 0.1);
+}
+header{
+    height: calc(100vh - 80px);
+}
